@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+main {
+    background-color: #3c2803;
+    /* height: 1000px; */
+}
+
+#index header nav ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#index header nav ul a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+#index header nav ul li {
+    font-size: 14pt;
+    font-family: Times New Roman;
+    color:#f7d56f;
+    padding: 30px;
+}
+
+#index section .content-1 {
+    width: 50%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#index section .content-1 h1 {
+    color: #f9d79b;
+    writing-mode: tb-rl;
+    text-orientation: upright;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 8%;
+}
+
+#index section .content-1 .sub-content-1 {
+    display: inline-block;
+    padding-left: 50px;
+    width: 80%;
+    vertical-align: middle;
+
+}
+
+#index section .content-1 .sub-content-1 h5 {
+    color: #ffffff;;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman;
+    letter-spacing: 5px;
+    padding: 15px 0;
+}
+
+#index section .content-1 .sub-content-1 h2 {
+    color: #fcc201;;
+    font-size: 70px;
+    font-family: sans-serif;
+}
+
+#index section .content-1 .sub-content-1 .description {
+    color: #acacac;
+    font-size: 20px;
+    width: 70%;
+}
+
+#index section .content-1 .sub-content-1 .poke {
+    margin-top: 100px;
+}
+
+#index section .content-1 .sub-content-1 .poke a{
+    text-decoration: none;
+    color: #b98787;
+    float: right;
+}
