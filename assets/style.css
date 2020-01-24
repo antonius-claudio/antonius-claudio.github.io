@@ -62,10 +62,11 @@ main {
     box-sizing: border-box;
     position: relative;
     top: 80px;
+    text-align: center;
     /* background-color: #acacac; */
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
     #index section .content-1 {
         width: 60%;
     }
@@ -75,21 +76,22 @@ main {
     color: #f9d79b;
     writing-mode: tb-rl;
     text-orientation: upright;
-    font-size: 70px;
+    font-size: 60px;
     font-family: sans-serif;
     font-weight: bold;
     letter-spacing: 20px;
     display: inline-block;
     vertical-align: middle;
     width: 8%;
+    padding-left: 2%;
 }
 
 #index section .content-1 .sub-content-1 {
     display: inline-block;
-    padding-left: 50px;
-    width: 80%;
+    padding-left: 5%;
+    width: 70%;
     vertical-align: middle;
-
+    text-align: left;
 }
 
 #index section .content-1 .sub-content-1 h5 {
@@ -102,14 +104,14 @@ main {
 
 #index section .content-1 .sub-content-1 h2 {
     color: #fcc201;;
-    font-size: 70px;
+    font-size: 55px;
     font-family: Georgia;
 }
 
 #index section .content-1 .sub-content-1 .description {
     color: #acacac;
     font-size: 20px;
-    width: 70%;
+    width: 85%;
 }
 
 #index section .content-1 .sub-content-1 .description #cheat {
@@ -118,7 +120,7 @@ main {
 }
 
 #index section .content-1 .sub-content-1 .poke {
-    margin-top: 100px;
+    margin-top: 5%;
 }
 
 #index section .content-1 .sub-content-1 .poke a{
@@ -143,7 +145,7 @@ main {
     display: flex;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
     #index section .content-2 {
         width: 80%;
     }
