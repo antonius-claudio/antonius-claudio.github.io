@@ -23,6 +23,17 @@ main {
     z-index: 10;
     width: 100%;
 }
+
+#index header img {
+    width: 50px;
+    margin: 15px 30px;
+}
+
+#index header nav {
+    display: inline-block;
+    float: right;
+}
+
 #index header nav ul {
     list-style: none;
     display: inline-block;
@@ -52,6 +63,12 @@ main {
     position: relative;
     top: 80px;
     /* background-color: #acacac; */
+}
+
+@media only screen and (max-width: 900px) {
+    #index section .content-1 {
+        width: 60%;
+    }
 }
 
 #index section .content-1 h1 {
@@ -126,6 +143,12 @@ main {
     display: flex;
 }
 
+@media only screen and (max-width: 900px) {
+    #index section .content-2 {
+        width: 80%;
+    }
+}
+
 #index section .content-2 h3 {
     color: #ffffff;
     font-size: 25px;
@@ -137,7 +160,7 @@ main {
 #index section .content-2 p {
     color: #acacac;
     font-size: 18px;
-    width: 70%;
+    width: 90%;
     margin-top: 30px;
 }
 
@@ -146,5 +169,6 @@ main {
 }
 
 #index section .content-2 .sub-content-2 {
-    width: 70%;
+    width: 65%;
+    padding-left: 5%;
 }
