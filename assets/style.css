@@ -67,17 +67,17 @@ main {
     margin: auto;
 }
 
+@media only screen and (max-width: 1200px) {
+    #index section .box {
+        width: 90%;
+    }
+}
+
 #index section .content-1 {
     width: 100%;
     box-sizing: border-box;
     position: relative;
     /* top: 80px; */
-}
-
-@media only screen and (max-width: 1200px) {
-    #index section .content-1 {
-        width: 60%;
-    }
 }
 
 #index section .content-1 h1 {
@@ -157,9 +157,10 @@ main {
     padding-top: 17%;
     padding-bottom: 15%;
 }
+
 @media only screen and (max-width: 1200px) {
-    #index section .content-2 {
-        width: 80%;
+    #index section .content-2 .box2 {
+        width: 90%;
     }
 }
 
@@ -245,6 +246,7 @@ main {
     position: relative;
     /* top: 80px; */
 }
+
 #index section .content-3 .box3 {
     width: 50%;
     margin: auto;
@@ -253,6 +255,7 @@ main {
     padding-bottom: 10%;
     text-align: center;
 }
+
 #index section .content-3 h3 {
     color: #ffffff;
     font-size: 25px;
@@ -262,11 +265,28 @@ main {
     padding-bottom: 10px;
     border-bottom: 5px dashed #cc8d19;
 }
+
 #index section .content-3 .sub-content-3 {
     display: inline-block;
     width: 70%;
     color: #d0c4ad;
     margin-left: 7%;
+}
+
+@media only screen and (max-width: 1200px) {
+    #index section .content-3 .box3 {
+        width: 90%;
+    }
+
+    #index section .content-3 .sub-content-3 {
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    #index section .content-3 h3 {
+        display: inherit;
+        margin: auto;
+    }
 }
 
 #index section .content-3 .sub-content-3 .colom {
@@ -301,6 +321,7 @@ main {
     position: relative;
     /* top: 80px; */
 }
+
 #index section .content-4 .box4 {
     width: 50%;
     margin: auto;
@@ -309,6 +330,13 @@ main {
     padding-bottom: 18%;
     text-align: center;
 }
+
+@media only screen and (max-width: 1200px) {
+    #index section .content-4 .box4 {
+        width: 100%;
+    }
+}
+
 #index section .content-4 .box4 h3 {
     color: #ffffff;
     font-size: 25px;
@@ -317,6 +345,7 @@ main {
     border-bottom: 5px dashed #cc8d19;
     margin: auto;
 }
+
 #index section .content-4 .box4 p {
     width: 60%;
     margin: auto;
