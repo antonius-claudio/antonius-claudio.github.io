@@ -251,12 +251,17 @@ main {
 
     #index section .content-2 h3 {
         margin: auto;
+        width: 50%;
     }
 
     #index section .content-2 .box2 .tools {
         width: 100%;
         float: none;
         margin-top: 30px;
+    }
+
+    #index section .content-2 p {
+        margin: 30px auto;
     }
 }
 
@@ -318,6 +323,7 @@ main {
     #index section .content-3 h3 {
         display: inherit;
         margin: auto;
+        width: 70%;
     }
 }
 
@@ -363,12 +369,6 @@ main {
     text-align: center;
 }
 
-@media only screen and (max-width: 1200px) {
-    #index section .content-4 .box4 {
-        width: 100%;
-    }
-}
-
 #index section .content-4 .box4 h3 {
     color: #ffffff;
     font-size: 25px;
@@ -376,6 +376,16 @@ main {
     padding-bottom: 10px;
     border-bottom: 5px dashed #cc8d19;
     margin: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+    #index section .content-4 .box4 {
+        width: 100%;
+    }
+
+    #index section .content-4 .box4 h3 {
+        width: 50%;
+    }
 }
 
 #index section .content-4 .box4 p {
