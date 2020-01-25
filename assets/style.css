@@ -57,6 +57,17 @@ main {
     padding: 30px;
 }
 
+@media only screen and (max-width: 1200px) {
+    #index header img {
+        width: 40px;
+        margin: 5px;
+    }
+
+    #index header nav ul li {
+        padding: 15px;
+    }
+}
+
 /* part1 style */
 #index section .box {
     /* padding: 13% 0; */
@@ -65,12 +76,6 @@ main {
     width: 50%;
     text-align: center;
     margin: auto;
-}
-
-@media only screen and (max-width: 1200px) {
-    #index section .box {
-        width: 90%;
-    }
 }
 
 #index section .content-1 {
@@ -92,6 +97,16 @@ main {
     vertical-align: middle;
     width: 8%;
     padding-left: 2%;
+}
+
+@media only screen and (max-width: 1200px) {
+    #index section .box {
+        width: 90%;
+    }
+
+    #index section .content-1 h1 {
+        letter-spacing: 5px;
+    }
 }
 
 #index section .content-1 .sub-content-1 {
@@ -158,12 +173,6 @@ main {
     padding-bottom: 15%;
 }
 
-@media only screen and (max-width: 1200px) {
-    #index section .content-2 .box2 {
-        width: 90%;
-    }
-}
-
 #index section .content-2 h3 {
     color: #ffffff;
     font-size: 25px;
@@ -226,6 +235,29 @@ main {
     padding-left: 5%;
     float: right;
     padding-top: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+    #index section .content-2 .box2 {
+        width: 90%;
+        text-align: center;
+    }
+
+    #index section .content-2 .sub-content-2 {
+        width: 100%;
+        padding-left: 0;
+        float: none;
+    }
+
+    #index section .content-2 h3 {
+        margin: auto;
+    }
+
+    #index section .content-2 .box2 .tools {
+        width: 100%;
+        float: none;
+        margin-top: 30px;
+    }
 }
 
 #index section .content-2 .sub-content-2 .name {
