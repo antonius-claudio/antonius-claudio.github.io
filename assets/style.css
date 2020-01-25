@@ -57,7 +57,7 @@ main {
     padding: 30px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 600px) {
     #index header img {
         width: 40px;
         margin: 5px;
@@ -99,7 +99,7 @@ main {
     padding-left: 2%;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 600px) {
     #index section .box {
         width: 90%;
     }
@@ -237,7 +237,7 @@ main {
     padding-top: 15px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 600px) {
     #index section .content-2 .box2 {
         width: 90%;
         text-align: center;
@@ -310,7 +310,7 @@ main {
     margin-left: 7%;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 600px) {
     #index section .content-3 .box3 {
         width: 90%;
     }
@@ -378,7 +378,7 @@ main {
     margin: auto;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 600px) {
     #index section .content-4 .box4 {
         width: 100%;
     }
