@@ -59,7 +59,9 @@ main {
 
 /* part1 style */
 #index section .box {
-    padding: 13% 0;
+    /* padding: 13% 0; */
+    padding-top: 16%;
+    padding-bottom: 12%;
     width: 50%;
     text-align: center;
     margin: auto;
@@ -69,7 +71,7 @@ main {
     width: 100%;
     box-sizing: border-box;
     position: relative;
-    top: 80px;
+    /* top: 80px; */
 }
 
 @media only screen and (max-width: 1200px) {
@@ -118,6 +120,7 @@ main {
     color: #acacac;
     font-size: 20px;
     width: 85%;
+    font-family: sans-serif;
 }
 
 #index section .content-1 .sub-content-1 .description #cheat {
@@ -145,14 +148,14 @@ main {
     width: 100%;
     box-sizing: border-box;
     position: relative;
-    top: 80px;
+    /* top: 80px; */
 }
 
 #index section .content-2 .box2 {
     width: 50%;
     margin: auto;
     padding-top: 17%;
-    padding-bottom: 12%;
+    padding-bottom: 15%;
 }
 @media only screen and (max-width: 1200px) {
     #index section .content-2 {
@@ -175,7 +178,7 @@ main {
     margin-top: 30px;
 }
 
-#index section .content-2 .box2 img {
+#index section .content-2 .box2 #profile {
     width: 30%;
     border-radius: 140px;
     filter: grayscale(100%);
@@ -183,8 +186,38 @@ main {
     /* -webkit-filter: blur(5px); */
 }
 
-#index section .content-2 .box2 img:hover {
+#index section .content-2 .box2 #profile:hover {
     filter: none;
+}
+
+#index section .content-2 .box2 .tools {
+    width: 65%;
+    float: right;
+}
+
+#index section .content-2 .box2 .tools .tool{
+    display: inline-block;
+    font-family: sans-serif;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 2px;
+    margin-right: 3px;
+}
+
+#index section .content-2 .box2 .tools .html-logo{
+    background-color: #027eaa;
+}
+
+#index section .content-2 .box2 .tools .css-logo{
+    background-color: #b12315;
+}
+
+#index section .content-2 .box2 .tools .js-logo{
+    background-color: #02ae01;
+}
+
+#index section .content-2 .box2 .tools .php-logo{
+    background-color: #c69000;
 }
 
 #index section .content-2 .sub-content-2 {
@@ -205,17 +238,19 @@ main {
     background-color: #ffffff21;
 }
 
-/* part2 style */
+/* part3 style */
 #index section .content-3 {
     width: 100%;
     box-sizing: border-box;
     position: relative;
-    top: 80px;
+    /* top: 80px; */
 }
 #index section .content-3 .box3 {
     width: 50%;
     margin: auto;
-    padding: 13% 0px;
+    /* padding: 18% 0px; */
+    padding-top: 17%;
+    padding-bottom: 10%;
     text-align: center;
 }
 #index section .content-3 h3 {
@@ -250,4 +285,87 @@ main {
     padding-bottom: 10px;
     border-bottom: solid 1px#c2826aba;
     margin-bottom: 10px;
+    color: #f79d3ede;
+    font-family: sans-serif;
+}
+
+#index section .content-3 .sub-content-3 .colom span {
+    color: #ffaa90;
+    font-family: sans-serif;
+}
+
+/* part4 style */
+#index section .content-4 {
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    /* top: 80px; */
+}
+#index section .content-4 .box4 {
+    width: 50%;
+    margin: auto;
+    /* padding: 13% 0px; */
+    padding-top: 17%;
+    padding-bottom: 18%;
+    text-align: center;
+}
+#index section .content-4 .box4 h3 {
+    color: #ffffff;
+    font-size: 25px;
+    width: max-content;
+    padding-bottom: 10px;
+    border-bottom: 5px dashed #cc8d19;
+    margin: auto;
+}
+#index section .content-4 .box4 p {
+    width: 60%;
+    margin: auto;
+    padding-top: 30px;
+    line-height: 1.5;
+    color:#fff;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#index section .content-4 .box4 a {
+    display: inline-block;
+    text-decoration: none;
+    color:#f9b618;
+    margin: 10px;
+    padding: 5px;
+    background-color:#d9d7d638;
+    /* box-sizing: border-box; */
+}
+
+#index section .content-4 .box4 a:hover {
+    border: #fff 1px solid;
+    box-sizing: border-box;
+}
+
+#index section .content-4 .box4 img{
+    display: inline-block;
+    float: right;
+    width: 15px;
+}
+
+/* footer style */
+#index footer {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    background-color: #6f4b08;
+}
+
+#index footer .box4 {
+    width: 50%;
+    margin: auto;
+    padding-top: 13%;
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+#index footer h4{
+    color: #fff;
+    font-size: 15px;
+    padding: 20px 0;
 }
