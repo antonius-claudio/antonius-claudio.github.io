@@ -63,18 +63,12 @@ main {
     }
 
     #index header nav ul li {
-        padding: 10px;
+        padding: 10px 7px;
+        font-size: 12pt;
     }
 }
 
 /* part1 style */
-/* #index section .box {
-    padding-top: 16%;
-    padding-bottom: 12%;
-    width: 50%;
-    text-align: center;
-    margin: auto;
-} */
 
 #index section .box {
     padding-top: 16vmax;
@@ -175,20 +169,12 @@ main {
 }
 
 /* part2 style */
-
 #index section .content-2 {
     width: 100%;
     box-sizing: border-box;
     position: relative;
     /* top: 80px; */
 }
-
-/* #index section .content-2 .box2 {
-    width: 50%;
-    margin: auto;
-    padding-top: 17%;
-    padding-bottom: 15%;
-} */
 
 #index section .content-2 .box2 {
     width: 50vmax;
@@ -216,8 +202,7 @@ main {
     width: 30%;
     border-radius: 140px;
     filter: grayscale(100%);
-    /* filter: blur(5px); */
-    /* -webkit-filter: blur(5px); */
+    
 }
 
 #index section .content-2 .box2 #profile:hover {
@@ -335,9 +320,6 @@ main {
 }
 
 @media only screen and (max-width: 600px) {
-    #index section .content-3 .box3 {
-        /* width: 90%; */
-    }
 
     #index section .content-3 .sub-content-3 {
         margin: auto;
@@ -353,7 +335,6 @@ main {
 #index section .content-3 .sub-content-3 .colom {
     border-radius: 6px;
     padding: 10px 20px;
-    /* background: linear-gradient(45deg, rgb(94, 57, 20) 0%, rgb(145, 97, 49) 75%, rgb(149, 122, 93) 100%); */
     background-color: #8a775f26;
     margin-bottom: 30px;
 }
@@ -426,7 +407,6 @@ main {
     margin: 10px;
     padding: 5px;
     background-color:#d9d7d638;
-    /* box-sizing: border-box; */
 }
 
 #index section .content-4 .box4 a:hover {
