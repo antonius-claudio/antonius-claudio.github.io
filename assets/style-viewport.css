@@ -64,7 +64,7 @@ main {
 
     #index header nav ul li {
         padding: 10px 7px;
-        font-size: 12pt;
+        font-size: 11pt;
     }
 }
 
@@ -250,7 +250,7 @@ main {
 @media only screen and (max-width: 600px) {
     #index section .content-2 .box2 {
         text-align: center;
-        padding: 0 10px 0 10px;
+        padding: 17vmax 10px 15vmax 10px;
     }
 
     #index section .content-2 .sub-content-2 {
@@ -415,7 +415,7 @@ main {
 }
 
 #index section .content-4 .box4 img{
-    display: inline-block;
+    display: block;
     float: right;
     width: 15px;
 }
