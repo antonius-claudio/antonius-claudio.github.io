@@ -134,7 +134,7 @@ main {
 
 @media only screen and (max-width: 600px) {
     #index section .box {
-        padding: 16vmax 10px 12vmax 10px;
+        padding: 16vmax 0 12vmax 0;
     }
 
     #index section .content-1 h1 {
@@ -250,7 +250,7 @@ main {
 @media only screen and (max-width: 600px) {
     #index section .content-2 .box2 {
         text-align: center;
-        padding: 17vmax 10px 15vmax 10px;
+        padding: 17vmax 0 15vmax 0;
     }
 
     #index section .content-2 .sub-content-2 {
