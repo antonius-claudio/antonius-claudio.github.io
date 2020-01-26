@@ -104,16 +104,6 @@ main {
     padding-left: 2%;
 }
 
-@media only screen and (max-width: 600px) {
-    /* #index section .box {
-        width: 90%;
-    } */
-
-    #index section .content-1 h1 {
-        letter-spacing: 5px;
-    }
-}
-
 #index section .content-1 .sub-content-1 {
     display: inline-block;
     padding-left: 5%;
@@ -146,6 +136,28 @@ main {
 #index section .content-1 .sub-content-1 .description #cheat {
     font-size: 15px;
     color: #5e5d5d;
+}
+
+@media only screen and (max-width: 600px) {
+    #index section .box {
+        padding: 16vmax 10px 12vmax 10px;
+    }
+
+    #index section .content-1 h1 {
+        letter-spacing: 5px;
+        writing-mode: unset;
+        display: unset;
+    }
+
+    #index section .content-1 .sub-content-1 {
+        padding-left: unset;
+        display: unset;
+        text-align: center;
+    }
+
+    #index section .content-1 .sub-content-1 .description {
+        width: unset;
+    }
 }
 
 #index section .content-1 .sub-content-1 .poke {
@@ -252,13 +264,13 @@ main {
 
 @media only screen and (max-width: 600px) {
     #index section .content-2 .box2 {
-        /* width: 90%; */
         text-align: center;
+        padding: 0 10px 0 10px;
     }
 
     #index section .content-2 .sub-content-2 {
         width: 100%;
-        padding-left: 0;
+        padding: 0;
         float: none;
     }
 
