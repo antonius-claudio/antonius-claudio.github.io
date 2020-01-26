@@ -29,7 +29,7 @@ main {
 }
 
 #index header nav {
-    display: inline-block;
+    display: block;
     float: right;
 }
 

@@ -63,7 +63,7 @@ main {
     }
 
     #index header nav ul li {
-        padding: 15px;
+        padding: 10px;
     }
 }
 
@@ -215,6 +215,7 @@ main {
 #index section .content-2 .box2 .tools {
     width: 65%;
     float: right;
+    margin-top: 20px;
 }
 
 #index section .content-2 .box2 .tools .tool{
@@ -269,7 +270,6 @@ main {
     #index section .content-2 .box2 .tools {
         width: 100%;
         float: none;
-        margin-top: 30px;
     }
 
     #index section .content-2 p {
@@ -317,7 +317,7 @@ main {
 
 #index section .content-3 .sub-content-3 {
     display: inline-block;
-    width: 70vw;
+    width: 68%;
     color: #d0c4ad;
     margin-left: 7%;
 }
